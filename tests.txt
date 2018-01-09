@@ -1,0 +1,176 @@
+// TERMINAL OUTPUT
+
+users-MacBook-Pro:desktop user$ make creditcard
+cc     creditcard.c   -o creditcard
+users-MacBook-Pro:desktop user$ ./credticard
+-bash: ./credticard: No such file or directory
+users-MacBook-Pro:desktop user$ ./creditcard
+Calculating Credit Card Interest
+
+APR: 0.18
+Initial Balance: 500.00
+Minimum Payment: 35.00
+
+Cycle	Month	Intrst	 Payment   Balance
+0       9       $7.40    $35.00    $472.40
+1       10      $7.22    $35.00    $444.62
+2       11      $6.58    $35.00    $416.20
+3       12      $6.36    $35.00    $387.56
+4       1       $5.92    $35.00    $358.48
+5       2       $4.95    $35.00    $328.43
+6       3       $5.02    $35.00    $298.46
+7       4       $4.42    $35.00    $267.87
+8       5       $4.10    $35.00    $236.97
+9       6       $3.51    $35.00    $205.47
+10      7       $3.14    $35.00    $173.61
+11      8       $2.65    $35.00    $141.27
+12      9       $2.09    $35.00    $108.36
+13      10      $1.66    $35.00    $75.01
+14      11      $1.11    $35.00    $41.12
+15      12      $0.63    $35.00    $6.75
+16      1       $0.10    $6.75     $0.00
+After 17 months, you paid $566.86 on an intial balance of $500.00.
+users-MacBook-Pro:desktop user$ make creditcard
+cc     creditcard.c   -o creditcard
+users-MacBook-Pro:desktop user$ ./creditcard
+Calculating Credit Card Interest
+
+APR: 0.21
+Initial Balance: 1000.00
+Minimum Payment: 50.00
+
+Cycle	Month	Intrst	 Payment   Balance
+0       9       $17.26   $50.00    $967.26
+1       10      $17.25   $50.00    $934.51
+2       11      $16.13   $50.00    $900.64
+3       12      $16.06   $50.00    $866.71
+4       1       $15.46   $50.00    $832.16
+5       2       $13.41   $50.00    $795.57
+6       3       $14.19   $50.00    $759.76
+7       4       $13.11   $50.00    $722.87
+8       5       $12.89   $50.00    $685.77
+9       6       $11.84   $50.00    $647.60
+10      7       $11.55   $50.00    $609.15
+11      8       $10.86   $50.00    $570.02
+12      9       $9.84    $50.00    $529.86
+13      10      $9.45    $50.00    $489.31
+14      11      $8.45    $50.00    $447.75
+15      12      $7.99    $50.00    $405.74
+16      1       $7.24    $50.00    $362.97
+17      2       $5.85    $50.00    $318.82
+18      3       $5.69    $50.00    $274.51
+19      4       $4.74    $50.00    $229.25
+20      5       $4.09    $50.00    $183.33
+21      6       $3.16    $50.00    $136.50
+22      7       $2.43    $50.00    $88.93
+23      8       $1.59    $50.00    $40.52
+24      9       $0.70    $40.52    $0.00
+After 25 months, you paid $1241.22 on an intial balance of $1000.00.
+users-MacBook-Pro:desktop user$ make creditcard
+cc     creditcard.c   -o creditcard
+users-MacBook-Pro:desktop user$ ./creditcard
+Calculating Credit Card Interest
+
+APR: 0.18
+Initial Balance: 42.00
+Minimum Payment: 35.00
+
+Cycle	Month	Intrst	 Payment   Balance
+0       9       $0.62    $35.00    $7.62
+1       10      $0.12    $7.62     $0.00
+After 2 months, you paid $42.74 on an intial balance of $42.00.
+
+users-MacBook-Pro:desktop user$ make creditcard
+cc     creditcard.c   -o creditcard
+users-MacBook-Pro:desktop user$ ./creditcard
+Calculating Credit Card Interest
+
+APR: 0.03
+Initial Balance: 5000.00
+Minimum Payment: 72.00
+
+Cycle	Month	Intrst	 Payment   Balance
+0       9       $12.33   $72.00    $4940.33
+1       10      $12.59   $72.00    $4880.92
+2       11      $12.04   $72.00    $4820.95
+3       12      $12.28   $72.00    $4761.24
+4       1       $12.13   $72.00    $4701.37
+5       2       $10.82   $72.00    $4640.19
+6       3       $11.82   $72.00    $4580.01
+7       4       $11.29   $72.00    $4519.30
+8       5       $11.51   $72.00    $4458.82
+9       6       $10.99   $72.00    $4397.81
+10      7       $11.21   $72.00    $4337.02
+11      8       $11.05   $72.00    $4276.07
+12      9       $10.54   $72.00    $4214.61
+13      10      $10.74   $72.00    $4153.35
+14      11      $10.24   $72.00    $4091.59
+15      12      $10.43   $72.00    $4030.02
+16      1       $10.27   $72.00    $3968.28
+17      2       $9.13    $72.00    $3905.42
+18      3       $9.95    $72.00    $3843.37
+19      4       $9.48    $72.00    $3780.84
+20      5       $9.63    $72.00    $3718.48
+21      6       $9.17    $72.00    $3655.65
+22      7       $9.31    $72.00    $3592.96
+23      8       $9.15    $72.00    $3530.12
+24      9       $8.70    $72.00    $3466.82
+25      10      $8.83    $72.00    $3403.65
+26      11      $8.39    $72.00    $3340.05
+27      12      $8.51    $72.00    $3276.56
+28      1       $8.35    $72.00    $3212.90
+29      2       $7.39    $72.00    $3148.30
+30      3       $8.02    $72.00    $3084.32
+31      4       $7.61    $72.00    $3019.93
+32      5       $7.69    $72.00    $2955.62
+33      6       $7.29    $72.00    $2890.91
+34      7       $7.37    $72.00    $2826.27
+35      8       $7.20    $72.00    $2761.47
+36      9       $6.81    $72.00    $2696.28
+37      10      $6.87    $72.00    $2631.15
+38      11      $6.49    $72.00    $2565.64
+39      12      $6.54    $72.00    $2500.18
+40      1       $6.37    $72.00    $2434.55
+41      2       $5.60    $72.00    $2368.15
+42      3       $6.03    $72.00    $2302.19
+43      4       $5.68    $72.00    $2235.86
+44      5       $5.70    $72.00    $2169.56
+45      6       $5.35    $72.00    $2102.91
+46      7       $5.36    $72.00    $2036.27
+47      8       $5.19    $72.00    $1969.46
+48      9       $4.86    $72.00    $1902.31
+49      10      $4.85    $72.00    $1835.16
+50      11      $4.53    $72.00    $1767.68
+51      12      $4.50    $72.00    $1700.19
+52      1       $4.33    $72.00    $1632.52
+53      2       $3.76    $72.00    $1564.28
+54      3       $3.99    $72.00    $1496.26
+55      4       $3.69    $72.00    $1427.95
+56      5       $3.64    $72.00    $1359.59
+57      6       $3.35    $72.00    $1290.94
+58      7       $3.29    $72.00    $1222.23
+59      8       $3.11    $72.00    $1153.35
+60      9       $2.84    $72.00    $1084.19
+61      10      $2.76    $72.00    $1014.95
+62      11      $2.50    $72.00    $945.45
+63      12      $2.41    $72.00    $875.86
+64      1       $2.23    $72.00    $806.10
+65      2       $1.86    $72.00    $735.95
+66      3       $1.88    $72.00    $665.83
+67      4       $1.64    $72.00    $595.47
+68      5       $1.52    $72.00    $524.98
+69      6       $1.29    $72.00    $454.28
+70      7       $1.16    $72.00    $383.44
+71      8       $0.98    $72.00    $312.41
+72      9       $0.77    $72.00    $241.18
+73      10      $0.61    $72.00    $169.80
+74      11      $0.42    $72.00    $98.22
+75      12      $0.25    $72.00    $26.47
+76      1       $0.07    $26.47    $0.00
+After 77 months, you paid $5498.53 on an intial balance of $5000.00.
+users-MacBook-Pro:desktop user$
+
+I know that this program works well becuase, firstly, the first run uses the same variables as the
+one on the example and has the same output. Also, looking at the progression of balances which decreases
+and the interest payed that decreases, it seems to make conventional sense. Moreover, the program ends
+when it comes to zero balance which is correct. 
